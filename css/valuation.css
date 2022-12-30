@@ -28,6 +28,11 @@
   transform: scale(.9);
 }
 
+.feedback-score.isSelected{
+  background-color: var(--blue-dark);
+  color: var(--white);
+}
+
 @media screen and (min-width: 425px){
   .feedback-score{
     max-inline-size: 3.5rem;

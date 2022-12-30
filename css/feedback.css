@@ -33,9 +33,10 @@
 }
 
 .feedback-message{
-  display: flex;
   flex-direction: column;
+  transform: scale(0);
   display: none;
+  transition: transform .4s ease-in-out;
 }
 
 .feedback-image{
