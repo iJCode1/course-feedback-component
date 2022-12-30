@@ -1,0 +1,14 @@
+:root{
+  --bg: #fec7d7; 
+  --white: #ffffff; 
+  --purple: #a786df; 
+  --blue-dark: #0e172c; 
+  --h1: 700 1.625rem/2rem Inter; 
+  --body1-regular: 400 1rem/1.5rem Inter; 
+  --body1-bold: 700 1rem/1.5rem Inter; 
+}
+
+body{
+  margin: 0;
+  font: var(--body1-regular);
+}
