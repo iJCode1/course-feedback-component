@@ -1,0 +1,23 @@
+.feedback-button{
+  font: var(--body1-bold);
+  background-color: var(--blue-dark);
+  border-radius: 7.5rem;
+  color: var(--white);
+  padding-block: .75rem;
+  border: none;
+  cursor: pointer;
+  inline-size: 100%;
+  transition: background-color .2s ease-in-out, transform .2s ease-in-out;
+  outline: 3px solid var(--blue-dark);
+}
+
+.feedback-button:hover{
+  background-color: var(--purple);
+  color: var(--blue-dark);
+}
+
+.feedback-button:active{
+  background-color: var(--active);
+  color: var(--white);
+  transform: scale(.9);
+}
